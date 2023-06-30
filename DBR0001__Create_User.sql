@@ -1,4 +1,4 @@
-create table blazarusermanagement.USER_INFO
+create table USER_INFO
 (
 	USER_NUM bigint unsigned NOT NULL AUTO_INCREMENT,
 	USER_ID varchar(25) not null,

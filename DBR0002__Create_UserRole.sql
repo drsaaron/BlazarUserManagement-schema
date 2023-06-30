@@ -1,4 +1,4 @@
-create table blazarusermanagement.USER_ROLE_TYPE_VAL
+create table USER_ROLE_TYPE_VAL
 (
 	USER_ROLE_TYPE_CDE smallint unsigned not null,
 	USER_ROLE_TYPE_TXT varchar(25) not null,
@@ -6,7 +6,7 @@ create table blazarusermanagement.USER_ROLE_TYPE_VAL
 	primary key (USER_ROLE_TYPE_CDE)
 );
 
-create table blazarusermanagement.USER_ROLE
+create table USER_ROLE
 (
 	USER_ROLE_NUM bigint unsigned NOT NULL AUTO_INCREMENT,
 	USER_NUM bigint unsigned NOT NULL,
